@@ -12,6 +12,7 @@ body{
 }
 
 .calcGrid{
+    
     display: grid;
     justify-content: center;
     align-content: center;
@@ -35,6 +36,8 @@ body{
 }
 
 .output{
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
     grid-column: 1 / -1;
     background-color: rgba(0, 0, 0, .75);
     color: white;
